@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura </title>
+    <link rel="stylesheet" href="stylehome.css">
+</head>
+<body>
+    <div id="container-pai">
+        <header>
+          <div id="logo">
+          <img src="/front/registro de ponto/img/images-removebg-preview.png" alt="">
+          </div>
+          <div id="text">
+            <h1>BatePoint</h1>
+          </div>
+        </header>
+        <div class="sidebar">
+            <a href="javascript:void(0);" onclick="loadPage('registrodeponto.html')">Registro de Ponto</a>
+            <a href="javascript:void(0);" onclick="loadPage('opcaocad.html')">Cadastro de Funcionario</a>           
+            <a href="javascript:void(0);" onclick="loadPage('folhadeponto.html')">Imprimir Folha de Ponto</a>
+          </div>
+        
+          <div class="content">
+            <iframe id="contentFrame" src="" width="100%" height="600px" style="border: none;"></iframe>
+          </div>
+        
+          <script>
+            function loadPage(page) {
+              document.getElementById("contentFrame").src = page;
+            }
+          </script>
+        <footer>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,29 @@
+#texto{
+    position: relative; 
+    left: -30px;  
+  }
+  
+  #conteudo {
+    position: fixed;
+    top: 20%;
+    width: 100%;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background-color: black;
+    height: 100%;
+  }
+  
+  #campo-texto {
+    padding: 0.5em;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 80%;
+    max-width: 400px;
+    box-sizing: border-box;
+  
+  }
