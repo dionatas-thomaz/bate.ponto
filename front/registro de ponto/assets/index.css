@@ -3,23 +3,23 @@
     padding: 0;
 }
 #conteiner{
-    display: flex;
-    height: 100%;
-    margin: 0 auto;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  width: 74%;
 }
 header{
+  position: fixed;
     display: flex;
-    height: 10%;
+    height: 12.3%;
+    width: 100%;
     background-color: blue;
     color: white;
     align-items: center;
 }
-#aba{
-    width: 20%;
-}
 .sidebar {
     height: 100%;
-    width: 250px;
+    width: 13%;
     position: fixed;
     left: 0;
     background-color: #111;
@@ -36,17 +36,17 @@ header{
     background-color: #6d6b6b;
   }
   .sidebar{
-    top: 120px;
+    top: 12.3%;
   }
   #content{
     width: 100%;
-    height: 100%;
-    text-align: center;
-    background-color: aqua;
   }
   #contentFrame{
-    width: 100%;
-    height: 100%;
-
+    position: absolute;
+    position: fixed;
+    top: 12.2%;
+    width: 86.8%;
+    height: 100vh;
   }
+
 

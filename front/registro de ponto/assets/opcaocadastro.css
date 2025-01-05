@@ -1,0 +1,36 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+#conteiner{
+  position: fixed;
+display: flex;
+margin: 0 auto;
+align-items: center;
+width: 74%;
+}
+.sidebar {
+    width: 18%;
+    position: fixed;
+    background-color: #201f1f;
+  }
+  .sidebar a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 10%;
+  }
+  .sidebar a:hover {
+    background-color: #6d6b6b;
+  }
+  #content{
+    width: 100%;
+  }
+  #contentFrame{
+    position: absolute;
+    position: fixed;
+    width: 82%;
+    height: 100vh;
+    left: 18%;
+  }

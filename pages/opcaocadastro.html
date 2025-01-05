@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Pop-up</title>
+    <link rel="stylesheet" href="/front/registro de ponto/assets/opcaocadastro.css">
+</head>
+<body>
+<div id="conteiner"></div>
+    <div id="aba">
+        <div id="longs">
+            <div class="sidebar">
+                <a href="javascript:void(0);" onclick="loadPage('cadastrousuario.html')">Cadastrar Funcionarios</a>
+                <a href="javascript:void(0);" onclick="loadPage('consultarregistros.html')">Consultar Usuarios Cadastrados</a>           
+            </div>
+       </div>
+    </div>
+    <div id="content">
+        <iframe id="contentFrame" ></iframe>
+    </div>
+    <script>
+        function loadPage(page) {
+          document.getElementById("contentFrame").src = page;
+        }
+    </script>
+<div>
+</body>
+</html>
